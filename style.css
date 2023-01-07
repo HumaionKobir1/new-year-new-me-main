@@ -67,8 +67,8 @@
   .plan-title{
     font-weight: 700;
     font-size: 40px;
-    margin-top: 130px;
-    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 70px;
     text-align: center;
   }
   .skills-container{
@@ -86,17 +86,18 @@
   /* call now section start */
 
   .call-now {
-    padding: 60px 64px;
-    border-radius: 5px;
     background-image: linear-gradient(
         90deg,
         rgb(3, 83, 180),
         rgb(255, 255, 255, 0.1)
       ),
       url("../images/watch.png");
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: 100% 100%, 100%;
-    margin:  130px 230px;
+    padding: 35px;
+    margin: 100px 200px;
+    color: white;
+    border-radius: 10px;
   }
   .contact {
     width: 460px;
@@ -106,13 +107,68 @@
     font-weight: 700px;
     font-size: 40px;
   }
+  .btn-call{
+    padding: 20px 36px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #005FAC;
+    margin-top: 24px;
+  }
 
   /* footer area start */
   .footer-area{
-    width: 1600px;
-    height: 577px;
     background-color: #151414;
     display: flex;
     justify-content: center;
-    color: #FFF;
+    gap: 330px;
+    color: #FFF; 
+    margin-top: 100px;
   }
+  .future-section{
+    width: 485px;
+    padding: 130px 0;  
+  }
+  
+.social-media-container{
+    display: flex;
+    gap: 18px;
+    margin-top: 30px;
+  }
+  .footer-title{
+    font-weight: 700px;
+    font-size: 45px;
+    margin-bottom: 16px;
+  } 
+
+.footer-description{
+    line-height: 26px;
+}
+
+.subscribe{
+    padding: 130px 0;
+}
+.subscribe h3{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.email{
+    width: 325px;
+    height: 64px;
+    border: 2px solid #FFF;
+    border-radius: 8px;
+    font-size: 18px;
+    background-color: #151414;
+    color: #FFF;
+}
+.btn-subscribe{
+    padding: 20px 36px;
+    background-color: #005FAC;
+    color: #FFF;
+    border-radius: 8px;
+    margin-top: 16px;
+    font-weight: bold;
+    font-size: 20px;
+}
