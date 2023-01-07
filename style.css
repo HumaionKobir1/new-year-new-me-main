@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+.banner{
+    background-image: url(images/banner/banner3.png);
+    background-size: cover;
+    text-align: right;
+    padding: 200px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #FFF;
+    margin-left: 510px;
+    
+}
+.banner-description{
+    line-height: 26px;
+    margin-top: 24px;
+    color: #FFF;
+    margin-left: 650px;
+}
+
+.btn-contact{
+    padding: 20px 30px;
+    color: #005FAC;
+    border-radius: 5px;
+    border: none;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+/* failure section start*/
+.failure-container{
+    display: flex;
+    gap: 87px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  .failure-details{
+    width: 416px;
+    margin-top: 150px;
+  }
+  .section-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+
+  }
+  .section-description{
+    color: #444343;
+    margin-bottom: 16px;
+    line-height: 26px;
+  }
+  .failure-list{
+    margin-top: 8px;
+  }
+
+  /* -- planing section start -- */
+
+  .plan-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 130px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .skills-container{
+    display: flex;
+    gap: 86px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .skill-title{
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  /* call now section start */
+
+  .call-now {
+    padding: 60px 64px;
+    border-radius: 5px;
+    background-image: linear-gradient(
+        90deg,
+        rgb(3, 83, 180),
+        rgb(255, 255, 255, 0.1)
+      ),
+      url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%, 100%;
+    margin:  130px 230px;
+  }
+  .contact {
+    width: 460px;
+  }
+  .contact-title {
+    color: #ffffff;
+    font-weight: 700px;
+    font-size: 40px;
+  }
+
+  /* footer area start */
+  .footer-area{
+    width: 1600px;
+    height: 577px;
+    background-color: #151414;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+  }
