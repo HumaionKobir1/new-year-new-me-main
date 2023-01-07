@@ -37,6 +37,8 @@
     color: #005FAC;
 }
 
+
+
 /* failure section start*/
 .failure-container{
     display: flex;
@@ -70,8 +72,9 @@
     font-size: 25px;
   }
 
-  /* -- planing section start -- */
 
+
+  /* -- planing section start -- */
   .plan-title{
     font-weight: 700;
     font-size: 40px;
@@ -91,15 +94,17 @@
     font-size: 30px;
   }
 
-  /* call now section start */
 
+
+
+  /* call now section start */
   .call-now {
     background-image: linear-gradient(
         90deg,
         rgb(3, 83, 180),
         rgb(255, 255, 255, 0.1)
       ),
-      url("../images/watch.png");
+      url("images/watch.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 35px;
@@ -127,6 +132,8 @@
   .fa-phone{
     color: #005FAC;
   }
+
+
 
   /* footer area start */
   .footer-area{
